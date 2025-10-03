@@ -28,18 +28,3 @@ Clone the repository:
 git clone https://github.com/Mina-Noshy/rust-adb-control.git
 cd rust-adb-control
 cargo run
-
----
-
-## Project Structure
-rust-adb-control/
-├─ Cargo.toml
-├─ README.md
-├─ src/
-│  ├─ main.rs           
-│  ├─ services/
-│  │  └─ adb.rs        
-│  └─ utilities/
-│     ├─ printing_helper.rs
-│     └─ io_helper.rs
-
